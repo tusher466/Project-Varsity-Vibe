@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-classic: 'Cinzel', 'Cinzel Decorative', Georgia, serif;
+    --font-serif: 'Lora', 'Cormorant Garamond', Georgia, serif;
+    --font-display: 'Playfair Display', Georgia, serif;
+    --font-varsity: 'Teko', sans-serif;
+  }
+
+  html, body {
+    font-family: 'Lora', 'Cormorant Garamond', Georgia, serif;
+    background-color: #f8fafc;
+    color: #0f172a;
+    overflow-x: hidden;
+    letter-spacing: 0.015em;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-classic);
+    letter-spacing: 0.035em;
+  }
+}
+
+.font-classic {
+  font-family: 'Cinzel', serif;
+  letter-spacing: 0.04em;
+}
+
+.font-classic-deco {
+  font-family: 'Cinzel Decorative', 'Cinzel', serif;
+  letter-spacing: 0.04em;
+}
+
+.font-display {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-serif-classic {
+  font-family: 'Lora', 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-varsity {
+  font-family: 'Teko', sans-serif;
+  letter-spacing: 0.05em;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}

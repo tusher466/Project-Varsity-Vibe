@@ -1,0 +1,6 @@
+{
+  "name": "Varsity Jersey Order Hub",
+  "description": "Campus varsity jersey preorder platform for students with real-time jersey customization, order tracking, Google Sheets sync, and owner catalog management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
