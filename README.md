@@ -1,4 +1,6 @@
-# Varsity Vibe
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:2563EB&height=200&section=header&text=Project%20Varsity%20Vibe&fontSize=45&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35" alt="Learning Resources Banner"/>
+</p>
 
 A modern university jersey ordering and management platform built with
 React, TypeScript, Firebase authentication, and Google Sheets
